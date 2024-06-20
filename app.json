@@ -28,7 +28,7 @@
             "required": true
         },
         "SUDO_USERS": {
-            "description": "-1002195713363",
+            "description": "1002195713363",
             "required": true
         }
     },
