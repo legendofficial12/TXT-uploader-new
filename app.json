@@ -20,7 +20,7 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "7297357842:AAEc-L_rbbAFlBgZL0NjNk21QQb0_maOxZY",
+            "description": "6848246477:AAFELpXaTOPzNleut5O_JjcpIn72fQ09dWw",
             "required": true
         },
         "OWNER_ID": {
@@ -28,7 +28,7 @@
             "required": true
         },
         "SUDO_USERS": {
-            "description": "1002195713363",
+            "description": "-1002195713363",
             "required": true
         }
     },
