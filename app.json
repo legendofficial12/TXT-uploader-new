@@ -20,8 +20,7 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "6401663904:AAFBPF5NPTLS1pFIDjKi5aZbsNSSTl_sbkc
-            ",
+            "description": "6401663904:AAFBPF5NPTLS1pFIDjKi5aZbsNSSTl_sbkc",
             "required": true
         },
         "OWNER_ID": {
