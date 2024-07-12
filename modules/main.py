@@ -162,8 +162,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**Vid_id  »** {str(count).zfill(3)}\n**Title  »** {name1} {res} Legend.mkv  \n\n**𝑩𝒂𝒕𝒄𝒉 »** {raw_text0}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘽𝙮 »** **{raw_text3}**\n\n'
-                cc1 = f'**Vid_id  »** {str(count).zfill(3)}\n**Title »** {name1} Legend.pdf  \n\n**𝑩𝒂𝒕𝒄𝒉 »** {raw_text0}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘽𝙮 »** {raw_text3}\n\n'
+                cc = f'**Vid_id  »** {str(count).zfill(3)}\n**Title  »** {name1} {res} Legend.mkv \n\n**𝘽𝙖𝙩𝙘𝙝 𝙉𝙖𝙢𝙚 »** {raw_text0}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘽𝙮 »** **{raw_text3}**\n\n'
+                cc1 = f'**Vid_id  »** {str(count).zfill(3)}\n**Title »** {name1} Legend.pdf \n\n**𝘽𝙖𝙩𝙘𝙝 𝙉𝙖𝙢𝙚 »** {raw_text0}\n\n**𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙 𝘽𝙮 »** {raw_text3}\n\n'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -189,7 +189,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"
+                    Show = f"**⥥ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶⬇️⬇️... »**\n\n**📝Name »** `{name}\n❄Quality » {raw_text2}`\n\n**🔗URL »** `{url}`"\n\n**Bot By ➤ **༺𝙏𝙝𝙚 𝗟𝗲𝗴𝗲𝗻𝗱 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 🦅༻"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
